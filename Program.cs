@@ -20,22 +20,7 @@ namespace HelloWeb
                         .UseStartup<Startup>()
                         .Build();
             Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
-            Console.WriteLine ("testing incremental scan");
+
             host.Run();
         }
     }
