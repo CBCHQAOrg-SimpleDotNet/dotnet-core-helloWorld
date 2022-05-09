@@ -6,7 +6,7 @@ if (Console.IsInputRedirected)
 {
     message = Console.In.ReadToEnd();
 }
-else if (args.Length > 0)
+else if (args.Length >= 0)
 {
     message = string.Join(" ", args);
 }
